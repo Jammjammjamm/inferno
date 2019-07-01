@@ -20,7 +20,6 @@ module Inferno
 
     @known_valuesets = {}
 
-
     def self.load_valuesets_from_directory(directory, include_subdirectories = false)
       directory += '/**/' if include_subdirectories
       valueset_files = Dir["#{directory}/ValueSet*"]
