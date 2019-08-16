@@ -35,7 +35,7 @@ module Inferno
 
       property :created_at, DateTime, default: proc { DateTime.now }
 
-      has n, :test_results, order: [:test_index.asc]
+      has n, :test_results, order: [:test_id.asc]
       belongs_to :testing_instance
 
       def failures
