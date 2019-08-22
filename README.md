@@ -11,7 +11,7 @@ This application creates test clients that exercise the range of requirements of
 
 If you are new to FHIR or SMART-on-FHIR, you may want to review the [Inferno Quick Start Guide](https://github.com/onc-healthit/inferno/wiki/Quick-Start-Guide).
 
-## Installation and Deployment
+##  Installation and Deployment
 
 ### Docker Installation
 
